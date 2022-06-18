@@ -60,6 +60,7 @@ body {
     background-color: var(--Moderate-violet);
     background-image: url("../images/bg-pattern-quotation.svg");
     background-repeat: no-repeat;
+    background-position: 80% 0;
 } 
 .jonathan {
     grid-area: jonathan;
@@ -79,7 +80,7 @@ body {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    margin: 20px 0 40px;
+    margin: 20px 0;
 }
 .box img {
     width: 30px;
