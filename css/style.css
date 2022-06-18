@@ -37,7 +37,11 @@ body {
     padding: 10px;
     margin: 50px auto;
     height: 100vh;
-    width: 1000px;
+}
+@media (min-width: 1200px) {
+    .main {
+        width: 1000px;
+    }
 }
 @media (max-width: 767px) {
     .main {
@@ -54,7 +58,9 @@ body {
 .daniel {
     grid-area: daniel;
     background-color: var(--Moderate-violet);
-}
+    background-image: url("../images/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+} 
 .jonathan {
     grid-area: jonathan;
     background-color: var(--Very-dark-grayish-blue);
@@ -81,7 +87,7 @@ body {
     max-width: 100%;
     border-radius: 50%;
     border: 1px solid white;
-    margin-right: 10px;
+    margin-right: 15px;
 }
 .box .text {
     font-size: 13px;
@@ -92,6 +98,7 @@ body {
 }
 .box h3 {
     flex-basis: 80%;
+    font-weight: normal;
 }
 .kira h3,
 .jeanette h3 {
